@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_974be40267e5470a83cc6e062cef7a1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_974be40267e5470a83cc6e062cef7a1a" ></div>
+        
+</body>
+<script>    
+    
+            var map_974be40267e5470a83cc6e062cef7a1a = L.map(
+                "map_974be40267e5470a83cc6e062cef7a1a",
+                {
+                    center: [41.5875041, -1.0723765],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c916b45fdf8448b0840e85275156eaa9 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_974be40267e5470a83cc6e062cef7a1a);
+        
+    
+            var marker_e31db16bcd0a4ea1b6fddca4a2b593a7 = L.marker(
+                [41.37596016854523, -0.4364878331925171],
+                {}
+            ).addTo(map_974be40267e5470a83cc6e062cef7a1a);
+        
+    
+        var popup_10ca4fa802e04116a68a83b2db4a5011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_385b3c66a3ff490cbe4aecea25433b8f = $(`<div id="html_385b3c66a3ff490cbe4aecea25433b8f" style="width: 100.0%; height: 100.0%;">Colonia Celsa</div>`)[0];
+            popup_10ca4fa802e04116a68a83b2db4a5011.setContent(html_385b3c66a3ff490cbe4aecea25433b8f);
+        
+
+        marker_e31db16bcd0a4ea1b6fddca4a2b593a7.bindPopup(popup_10ca4fa802e04116a68a83b2db4a5011)
+        ;
+
+        
+    
+    
+            var marker_eb07ff83c1ea492baa5b687106f38902 = L.marker(
+                [41.63612753671014, -0.8984708055407885],
+                {}
+            ).addTo(map_974be40267e5470a83cc6e062cef7a1a);
+        
+    
+        var popup_18d2f6b2c26b4997adf5f3a776e4719b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6ba27eb46164f389f5237c8b6b2feb3 = $(`<div id="html_c6ba27eb46164f389f5237c8b6b2feb3" style="width: 100.0%; height: 100.0%;">Cerámica</div>`)[0];
+            popup_18d2f6b2c26b4997adf5f3a776e4719b.setContent(html_c6ba27eb46164f389f5237c8b6b2feb3);
+        
+
+        marker_eb07ff83c1ea492baa5b687106f38902.bindPopup(popup_18d2f6b2c26b4997adf5f3a776e4719b)
+        ;
+
+        
+    
+    
+            var marker_475c0ff163d04b389fd9b0c3fb5e5bfa = L.marker(
+                [41.63660879771189, -0.8981110596974838],
+                {}
+            ).addTo(map_974be40267e5470a83cc6e062cef7a1a);
+        
+    
+        var popup_96e9494da6624c31b248d6d6bea6e881 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32153721b1d74051892f10fb5094e862 = $(`<div id="html_32153721b1d74051892f10fb5094e862" style="width: 100.0%; height: 100.0%;">Etnología</div>`)[0];
+            popup_96e9494da6624c31b248d6d6bea6e881.setContent(html_32153721b1d74051892f10fb5094e862);
+        
+
+        marker_475c0ff163d04b389fd9b0c3fb5e5bfa.bindPopup(popup_96e9494da6624c31b248d6d6bea6e881)
+        ;
+
+        
+    
+    
+            var marker_409484e9bd3d4dd28ace70ffaea1484d = L.marker(
+                [41.648398859596945, -0.8788930592377484],
+                {}
+            ).addTo(map_974be40267e5470a83cc6e062cef7a1a);
+        
+    
+        var popup_8d3fd9e9471049cd9fc89dc806186c67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88ebea222a3447b1980c2d7f60759d45 = $(`<div id="html_88ebea222a3447b1980c2d7f60759d45" style="width: 100.0%; height: 100.0%;">Arqueología-Bellas Artes</div>`)[0];
+            popup_8d3fd9e9471049cd9fc89dc806186c67.setContent(html_88ebea222a3447b1980c2d7f60759d45);
+        
+
+        marker_409484e9bd3d4dd28ace70ffaea1484d.bindPopup(popup_8d3fd9e9471049cd9fc89dc806186c67)
+        ;
+
+        
+    
+</script>
